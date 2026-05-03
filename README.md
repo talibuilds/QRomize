@@ -13,10 +13,6 @@
 
 ---
 
-<div align="center">
-  <img src="src/assets/hero.png" alt="QRomize App Interface" width="800" />
-</div>
-
 ## ✨ Features
 
 QRomize takes the generic QR code and transforms it into a premium, brand-authentic experience.
@@ -57,11 +53,12 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ## 🛠️ Technology Stack
 
-*   **Framework**: [React.js](https://reactjs.org/) powered by [Vite](https://vitejs.dev/) for lightning-fast HMR.
-*   **Routing**: `react-router-dom` for seamless multi-page navigation (Home & Features Gallery).
-*   **QR Engine**: `qr-code-styling` for high-quality, fully customizable QR code generation directly on the HTML5 Canvas.
-*   **Icons**: `lucide-react` for beautiful, consistent iconography.
-*   **Design System**: Custom Vanilla CSS leveraging CSS variables, dark mode scoping, and a highly responsive flex/grid layout.
+* **React.js**
+* **Vite**
+* **react-router-dom**
+* **qr-code-styling**
+* **lucide-react**
+* **Vanilla CSS**
 
 ## 🎨 Design Aesthetic
 
