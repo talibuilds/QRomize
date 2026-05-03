@@ -506,3 +506,85 @@
   background: var(--primary);
   border-radius: 2px 2px 0 0;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .app-container {
+    padding: 0 1rem;
+  }
+
+  .color-pickers {
+    grid-template-columns: 1fr;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tab-btn {
+    font-size: 0.9rem;
+  }
+
+  .features-section {
+    padding: 3rem 1rem;
+  }
+
+  .features-header h2 {
+    font-size: 2rem;
+  }
+
+  .controls-section {
+    max-height: none;
+    padding: 1.5rem;
+  }
+
+  .preview-section {
+    padding: 1rem 0;
+    min-height: auto;
+  }
+
+  .hero-pills {
+    gap: 0.5rem;
+  }
+
+  .pill {
+    padding: 0.4rem 1rem;
+    font-size: 0.7rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .action-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
