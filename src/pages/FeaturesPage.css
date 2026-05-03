@@ -1,0 +1,144 @@
+.features-page {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.fp-header {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.fp-header h1 {
+  font-size: 3.5rem;
+  color: var(--text-primary);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.fp-header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--text-secondary);
+}
+
+/* Zigzag Section */
+.zigzag-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  margin-bottom: 8rem;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 900px) {
+  .feature-row, .feature-row.reverse {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+}
+
+.feature-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-text {
+  flex: 1;
+}
+
+.feature-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.feature-text p {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Live QR Render */
+.real-mock-qr {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: white;
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-glow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.live-qr-render {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live-qr-render canvas, .live-qr-render svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Tech Specs */
+.tech-specs-section {
+  margin-bottom: 4rem;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.spec-card {
+  padding: 2rem;
+  background: var(--card-bg);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-glow);
+  transition: transform 0.3s ease;
+}
+
+.spec-card:hover {
+  transform: translateY(-5px);
+}
+
+.spec-icon {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.spec-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.spec-card p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
